@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/*
+data/processed/*
+data/demo_complaints.csv
+
+# Models
+models/*.joblib
+
+# Generated output
+outputs/figures/*
+outputs/reports/*
+
+# Keep directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
